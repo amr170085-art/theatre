@@ -1,3 +1,4 @@
+import '@theatre/studio'
 import {getProject, types} from '@theatre/core'
 import theatre from '@theatre/core'
 import React, {useEffect, useState} from 'react'

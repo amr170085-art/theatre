@@ -1,3 +1,7 @@
+import '@theatre/studio'
+import theatre from '@theatre/core'
+
+void theatre.init({studio: true})
 import {button, initialize, types, useControls} from 'theatric'
 import ReactDom from 'react-dom/client'
 import React, {useState} from 'react'

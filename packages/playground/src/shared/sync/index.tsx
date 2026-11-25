@@ -1,3 +1,4 @@
+import '@theatre/studio'
 import theatre from '@theatre/core'
 import {getProject} from '@theatre/core'
 

@@ -1,3 +1,7 @@
+import '@theatre/studio'
+import theatre from '@theatre/core'
+
+void theatre.init({studio: true})
 /**
  * A super basic Turtle geometry renderer hooked up to Theatre, so the parameters
  * can be tweaked and animated.
