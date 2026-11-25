@@ -1,2 +1,4 @@
 **/prisma/client-generated/**/*
 **/prisma/client-generated/*
+# vendored Draco decoder, copied verbatim from three/examples/jsm/libs/draco
+packages/playground/src/public/draco/

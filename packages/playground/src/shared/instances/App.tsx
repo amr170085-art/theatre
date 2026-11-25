@@ -15,7 +15,7 @@ function Model({
   instance,
   ...props
 }: {url: string; instance?: string} & JSX.IntrinsicElements['group']) {
-  const {nodes} = useGLTF(url) as any
+  const {nodes} = useGLTF(url, '/draco/') as any
 
   return (
     <e.group

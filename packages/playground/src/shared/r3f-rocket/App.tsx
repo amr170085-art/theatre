@@ -11,7 +11,7 @@ document.body.style.backgroundColor = '#171717'
 const EditableCamera = e(PerspectiveCamera, 'perspectiveCamera')
 
 function Model({url}: {url: string}) {
-  const {nodes} = useGLTF(url) as any
+  const {nodes} = useGLTF(url, '/draco/') as any
 
   return (
     <group rotation={[-Math.PI / 2, 0, 0]} position={[0, -7, 0]} scale={7}>

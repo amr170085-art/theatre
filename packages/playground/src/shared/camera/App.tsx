@@ -15,7 +15,7 @@ import type {Mesh} from 'three'
 document.body.style.backgroundColor = '#171717'
 
 function Model({url}: {url: string}) {
-  const {nodes} = useGLTF(url) as any
+  const {nodes} = useGLTF(url, '/draco/') as any
 
   return (
     <group rotation={[-Math.PI / 2, 0, 0]} position={[0, -7, 0]} scale={7}>
@@ -100,7 +100,7 @@ function App() {
             position={[0, 0, 0]}
             visible="editor"
           >
-            <boxBufferGeometry attach="geometry" />
+            <boxGeometry attach="geometry" />
             <meshPhongMaterial attach="material" color="red" />
           </e.mesh>
           <Suspense fallback={null}>
